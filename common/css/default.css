@@ -1,0 +1,78 @@
+@charset "shift-jis";
+
+/* -- / default setting / -- */
+
+body,div,
+dl,dt,dd,ul,ol,li,
+h1,h2,h3,h4,h5,h6,
+pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	   margin:0;
+	   padding:0;
+}
+
+body {
+	text-align:center;
+	margin:auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6,
+div, p, pre, ul, ol, dl, dt, dd,
+address, form, blockquote{
+	padding: 0;
+	line-height: 1.2em;
+	display: block;
+	margin: 0px;
+	font-size:1.0em;
+}
+
+table {
+	margin : 0 0 0 1px;
+	font-size:1.1em;
+	border-collapse: collapse;
+}
+
+img {border: none;}
+
+li {list-style: none;}
+
+option{ padding-right:10px; }
+/* for IE7&Opera */
+*+html option{padding-right:0;}
+/* for IE6 */
+* html option{
+	padding-right:0;
+}
+
+a:link{
+	color:#0000ff;
+	text-decoration:none;
+}
+
+a:visited{
+	color:#0000ff;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#0000ff;
+	text-decoration:none;
+}
+
+a:active{
+}
+
+.clear{
+	clear:both;
+	line-height:0;
+	font-size:0;
+	margin:0;
+	padding:0;
+}
+.example{
+	color:#999999;
+}
+.normal{
+	color:#000000;
+}
